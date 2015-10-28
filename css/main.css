@@ -1,0 +1,30 @@
+.board {
+  display: table;
+  border-collapse: collapse;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.announcement {
+  font-size: 32px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  font-family: fantasy;
+  bottom: 50%;
+}
+
+#container {
+  position: relative;
+  display: inline-block;
+}
